@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Random Gif Grabber</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron" "col-xs-12">
+            <h1>Gif Grabber!</h1>
+            <p><medium>Click buttons below to grab some gifs of the button topics</medium></p>
+            <p>Or submit your own topic that you'd like to search and click for the new button for results</p>
+        </div>
+    
+
+    
+        <div id="topicButtons" class="btn-group col-xs-12"></div>
+    
+    <br><br>
+
+    
+        <form class="well col-xs-12" id="topic-form">
+            <label for="topic-input">Add a topic:</label>
+            <input type="text" id="topic-input"><br>
+
+            <input id="addTopic" type="submit" value="Submit">
+        </form>
+    
+
+    <br><br>
+    
+        <div id="topics" class="well col-xs-12"></div>
+    </div>
+    <script src="logic.js"></script>
+    
+</body>
+</html></html>
